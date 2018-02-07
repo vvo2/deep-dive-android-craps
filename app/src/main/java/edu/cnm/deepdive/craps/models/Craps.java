@@ -39,6 +39,11 @@ public class Craps {
     return sum;
   }
 
+  public State getState() {
+
+    return state;
+  }
+
   public enum State { //enum is a static class
     COME_OUT, WIN, LOSS, POINT, TERMINAL; //constant are UPPER CASE
     //name of enum are default strings
